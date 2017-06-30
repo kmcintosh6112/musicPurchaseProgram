@@ -1,0 +1,8 @@
+function get music()
+{
+  var songs = 0;
+  var dollarPrice = 0;
+  songs = parseInt (prompt("Enter the number of songs you wish to purchase today."));
+  dollarPrice = .99 * songs;
+  document.write ("your total is: ", dollarPrice);
+ }
