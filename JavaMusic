@@ -1,0 +1,11 @@
+public staic void main(Strings[] args)
+{
+  int songs = 0;
+  float dollarPrice = 0.0;
+  Scanner scanner = New Scanner (system.in);
+  
+  println("Enter the number of songs you wist to purchase today.")
+  songs = scanner.nextInt();
+  dollarPrice = .99 * songs;
+  println(dollarPrice);
+ }
